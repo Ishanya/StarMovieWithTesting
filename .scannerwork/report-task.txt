@@ -1,0 +1,6 @@
+projectKey=company:star-movies
+serverUrl=http://localhost:9000
+serverVersion=6.7.5.38563
+dashboardUrl=http://localhost:9000/dashboard/index/company:star-movies
+ceTaskId=AWdUw_R7frj83Y8RgvA4
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWdUw_R7frj83Y8RgvA4

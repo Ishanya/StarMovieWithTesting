@@ -1,0 +1,182 @@
+
+#bodi{
+    margin-top: -2vw;
+}
+#position{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#backGround{
+    height:40.2vw;
+    width:100%;
+
+}
+
+
+
+
+
+#logo{
+    height:4vw;
+    width:9vw;
+    margin:0.5vw 0vw 1vw 1vw; 
+}
+
+.well{
+    background-color: rgb(226, 224, 111);
+}
+
+#btn-favourite{
+    margin-left: 32vw;
+    background-color: rgb(42, 24, 145);
+    color: rgb(226, 224, 111);
+    height:3vw;
+    width:8vw;
+    text-align: inherit
+}
+
+#cardd{
+    width: 111vh;
+    height: 30vh;
+    margin-left: 20vw;
+}
+
+#favour{
+    font-size: 1vw;
+}
+
+#tag{
+
+  margin-left: 23.6vw;
+  margin-top:-25.6vw;
+  font-size: 5vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:  rgb(226, 224, 111);
+   
+}
+
+
+
+form.example input[type=search] {
+    padding: 0.732vw;
+    font-size: 1.24vw;
+    border: 0.07vw solid grey;
+    width: 50%;
+    background: #f1f1f1;
+    margin-left:20vw;
+}
+
+form.example button {
+ 
+    width: 10vw;
+    padding: 0.732vw;
+    background: rgb(226, 224, 111);
+    color: white;
+    font-size: 1.24vw;
+    border: 0.07vw solid grey;
+    border-left: none;
+    cursor: pointer;
+    
+}
+
+form.example button:hover {
+    background:rgb(194, 192, 103);
+}
+
+form.example{
+    margin: auto;
+    
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* * {
+    box-sizing: border-box;
+  } */
+  
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid rgb(192, 29, 29);
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: rgb(209, 27, 27);
+  }
+
+  #listing{
+      width:51vw;
+      margin-left: 19vw;
+  }
+  
+  #btn{
+      background-color: brown;
+      width: 8.124450951683748vw;
+      height: 6.0882800608828vh;
+      font-size: 13px;
+  }
+  @media only screen and (max-width: 1044px){
+      #btn{
+        background-color: brown;
+        width: 50px;
+        height: 35px;
+        font-size: 13px;
+      }
+  }
+
+  @media only screen and (max-width: 767px){
+    #cardId{
+        margin-left: 16vw;
+    }
+  }
+      @media only screen and (max-width: 540px){
+        form.example input[type=search] {
+            padding: 0.732vw;
+            font-size: 1.24vw;
+            border: 0.07vw solid grey;
+            width: 50%;
+            height: 15%;
+            background: #f1f1f1;
+            margin-left:20vw;
+        }
+        #btn{
+            background-color: brown;
+            width: 12.124450951683748vw;
+            height: 8.0882800608828vh;
+            font-size: 13px;
+        }
+      }
+      @media only screen and (max-width: 400px){
+        #btn{
+            background-color: brown;
+            width: 15.124450951683748vw;
+            height: 8.0882800608828vh;
+            font-size: 13px;
+        }
+      }
+      @media only screen and (max-width: 370px){
+        #img{
+            width: 40.124450951683748vw;
+            height: 30.124450951683748vw;
+        }
+        #cardId{
+            margin-left: 16vw;
+        }
+      }

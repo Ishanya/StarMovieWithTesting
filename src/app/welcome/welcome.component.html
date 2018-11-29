@@ -1,0 +1,61 @@
+<head>
+
+  <link data-require="bootstrap-css@3.3.6"
+data-semver="3.3.6" rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+
+</head>
+
+ <div class="well">
+  <img src="../../assets/images/logo.png" alt="logo" id="logo" class="float-left">
+  <button type="button" class="btn btn-large" id="btn-favourite"><strong id="favour">Favourites<span class="glyphicon glyphicon-heart"></span></strong></button>
+</div>
+
+
+<div id="bodi">
+    <img src="../../assets/images/theatre.jpg" alt="backGround" id="backGround">
+    <p id="tag">Eat.Sleep.Watch.Repeat<span class="glyphicon glyphicon-play"></span></p>
+
+    <br><br><br><br><br><br>
+<form id="bg" class="example" >
+
+  <div class="row">
+    <div class="col-md-12">
+        <input type="Search"
+        name = "query" id="myInput" [(ngModel)]="title" (keyup)="searchFunction()" placeholder="Search.." title="Search the movie you like">
+        <button type="button" (click)="searching()"><i class="glyphicon glyphicon-search"></i></button>
+       <br><br>
+      <br><br><br>
+       <div *ngFor ="let movie of movies">
+          <div class="row" id="cardId">
+              <div class="col-md-2 col-auto"></div>
+              <div class="col-md-5">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-2"></div>
+                      <div class="col-sm-4">
+                        <img id = "img" class="img-thumbnail img-responsive"
+                          src="../../assets/images/kal.jpg"
+                          alt="Card image cap" title="{{movie.movieName}} | 1996"> 
+                      </div>  
+                      <div class="col-sm-6">
+                        <strong><p>{{movie.movieName}} ({{getYearOfMovie(movie.movieReleaseDate)}})</p></strong>
+                        <button  id = "btn" class="btn btn-info" (click)="addToFavourite(movie)">ADD</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-4"></div>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  
+</form>
+</div>
+<br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br>
+<app-footer></app-footer>
